@@ -1,11 +1,11 @@
 body {
     background-color: #121212;
-    color: rgba(255, 255, 255, 0.727);
+    color: RGB(229, 215, 215);
     font-size: larger;
 }
 a {
     padding-right: 1em;
-    color: rgb(50, 50, 221);
+    color: rgb(155, 155, 243);
 }
 
 /* Extra small devices (phones, 600px and down) */
