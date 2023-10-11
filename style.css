@@ -1,7 +1,36 @@
 body {
-    background-color: rgba(200, 231, 231, 0.685);
+    background-color: #121212;
+    color: rgba(255, 255, 255, 0.727);
     font-size: larger;
 }
 a {
     padding-right: 1em;
+    color: rgb(50, 50, 221);
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: small;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: medium;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {
+        font-size: larger;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 992px) {}
+
+Extra large devices (large laptops and desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {} */
