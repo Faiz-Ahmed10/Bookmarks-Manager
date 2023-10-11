@@ -1,10 +1,31 @@
+:root {
+    --primary-color:#a4e9e9af;
+    --secondary-color:#000000;
+    --a-color: #3800D6;
+}
+
+.dark-theme {
+    --primary-color:#121212;
+    --secondary-color:#E5D7D7;
+    --a-color: #D696E9;
+
+}
+
+#icon {
+    width: 30px;
+    cursor: pointer;
+}
+
 body {
-    background-color: rgba(200, 231, 231, 0.685);
+    background-color: var(--primary-color);
+    color: 	var(--secondary-color);
     font-size: larger;
 }
 a {
     padding-right: 1em;
+    color: var(--a-color);
 }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     body {
