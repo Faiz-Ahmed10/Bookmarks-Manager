@@ -1,0 +1,131 @@
+:root {
+    --primary-color: #a4e9e9af;
+    --secondary-color: #000000;
+    --a-color: #3800D6;
+    --container-bg-color: #ffffff;
+    --container-text-color: #000000;
+}
+
+.dark-theme {
+    --primary-color: #121212;
+    --secondary-color: #E5D7D7;
+    --a-color: #D696E9;
+    --container-bg-color: #1e1e1e;
+    --container-text-color: #e5d7d7;
+}
+
+#icon {
+    width: 30px;
+    cursor: pointer;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+a {
+    padding-right: 1em;
+    color: var(--a-color);
+}
+
+.container {
+    background-color: var(--container-bg-color);
+    color: var(--container-text-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+label {
+    margin-left: 8px;
+    font-size: 1.2em;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: small;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    label {
+        font-size: 1em;
+    }
+
+    input[type="checkbox"] {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: medium;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    label {
+        font-size: 1.1em;
+    }
+
+    input[type="checkbox"] {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {
+        font-size: larger;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    label {
+        font-size: 1.2em;
+    }
+
+    input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+    }
+}
